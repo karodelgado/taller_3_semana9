@@ -3,6 +3,7 @@ import plotly.express as px
 import pandas as pd
 import sqlite3
 import os
+import time
 
 # Título de la aplicación
 st.title("Análisis de Pagos - Base de Datos Sakila")
