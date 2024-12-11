@@ -14,7 +14,7 @@ carpeta = os.path.dirname(__file__)
 st.write('Carpeta actual:', carpeta)
 
 # Construir la ruta al archivo de la base de datos
-db_path = os.path.join(os.path.dirname(__file__), 'data', 'sakila_master.db')
+db_path = os.path.join(os.path.dirname(__file__),'..', 'data', 'sakila_master.db')
 if os.path.exists(db_path):
     print(f"Archivo encontrado: {db_path}")
 else:
