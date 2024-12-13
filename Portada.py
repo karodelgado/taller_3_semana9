@@ -6,8 +6,8 @@ st.set_page_config(
 st.sidebar.title('la portadita')
 
 
-st.title('Titulo')
+st.title('Ánalisis de Ventas - Sakila')
 
-st.header('Subtitulo')
+st.header('Autor: Carolina Delgado Prado')
 
-st.write('Parrafo')
+st.write('Propósito del informe: Se busca identificar patrones de alquiler, tendencias de popularidad de películas, y el desempeño de las tiendas para optimizar las decisiones estratégicas de inventario y mejorar la experiencia de los usuarios')
